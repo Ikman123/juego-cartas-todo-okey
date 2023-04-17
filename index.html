@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+    <title>Juego Memoria</title>
+</head>
+    <body>
+        <navbar class="navbar">
+            <navbar class="jugador1">Puntos Jugador 1:</navbar>
+            <navbar class="puntos"><span></span></navbar>
+            <navbar class="jugador2">Puntos Jugador 2:</navbar>
+            <navbar class="puntos"><span></span></navbar>
+            <a href="inicio.html" class="icon-inicio"></a>
+        </navbar>
+        <div id="tablero"></div>
+        <game class="nuevo-juego" onclick="generarTablero()">
+            Nuevo Juego
+        </game>
+    </body>
+</html>
